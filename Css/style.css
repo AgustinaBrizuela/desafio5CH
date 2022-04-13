@@ -45,12 +45,11 @@ body
 
 nav
     {
-    background-color:#DED9E9;
-    font-weight: bold;
-    font-style: normal;
-    border: 0.2rem solid rgba(37, 10, 39, 0.644);
-    padding-bottom: 0.6rem;
-    width: 100%;
+        padding: 1.5rem;
+        font-weight: bold;
+        font-style: normal;
+        padding-bottom: 0.1rem;
+        width: 100%;
     
     }
 
@@ -58,12 +57,12 @@ nav
         display: flex;
         flex-direction:row;
         justify-content: space-around;
-        
         list-style: none;
         font-size: 1.5rem;
-        margin-right: auto;
-        margin-top: 2px;
+        margin-right: 0.2rem;
+        margin-top: 0.2rem;
         height:auto;
+        padding: 0.5rem;
         
     }
     
