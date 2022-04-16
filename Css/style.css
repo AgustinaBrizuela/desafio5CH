@@ -243,21 +243,6 @@ animation-duration: 4s;
         transform: scale(1.5);
         transition: color, background-color, transform 1.2s ease-in;
     }
-
-/*Animación del footer*/
-
-@keyframes left-in {
-0%
-    {
-        left: -100%;
-        color: rgb(19, 19, 104);
-    }
-100% {
-        left: 0;
-        color:rgb(70, 17, 57)
-    }
-}
-
 .redessociales h2
 {
 animation-name: left-in;
