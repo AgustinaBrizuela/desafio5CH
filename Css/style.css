@@ -65,6 +65,14 @@ nav
         padding: 0.5rem;
         
     }
+    /*Agrego hover menu*/
+    .menu :hover
+    {
+        
+        transform: scale(1.5);
+        transition: color, background-color, transform 1.2s ease-in;
+
+    }
     
     #menub{
     display:none;
@@ -84,17 +92,13 @@ nav
         user-select: none;
       }
       
-      
-   
      nav li
      {
-     margin:10px;
-     border: 0.2rem solid rgba(37, 10, 39, 0.644);
-        
-     } 
-    .menu button{
         margin:10px;
-       
+        border: 0.2rem solid rgba(37, 10, 39, 0.644);
+     } 
+    .menu button {
+        margin:10px;
         border: 0.2rem solid rgba(37, 10, 39, 0.644);
     }
 
@@ -104,11 +108,12 @@ nav li a:hover
     }
 nav ul a   
 {
-   text-decoration: none;
+    text-decoration: none;
     color: rgba(15, 4, 15, 0.644);
     font-weight: bold;
-    padding: 0.3rem;
+    padding: 0.1rem;
     margin-top: 0.2rem;
+    border-radius: 30px;
    
 }
 
