@@ -16,11 +16,11 @@ html{
 
   /*Color del cuerpo de la página*/
 
-body 
-{
-   background-color: #E2D6FF;
-
-}
+  body 
+  {
+     background-image: linear-gradient(to right, rgb(56, 42, 54),rgb(216, 174, 216));
+  
+  }
 
 /*Menú de navegación*/
 
@@ -71,7 +71,6 @@ nav
         
         transform: scale(1.5);
         transition: color, background-color, transform 1.2s ease-in;
-
     }
     
     #menub{
@@ -92,8 +91,7 @@ nav
         user-select: none;
       }
       
-    
-    .menu button {
+.menu button {
         margin:10px;
         border: 0.2rem solid rgba(37, 10, 39, 0.644);
     }
@@ -151,7 +149,22 @@ flex-direction: row;
 flex-wrap: wrap;
 gap: 2rem;
 }
-
+.imagen1{
+    transition: transform 0.5s ease-in;
+}
+.imagen1:hover
+{
+transform: scale(1.2);
+box-shadow: 0 0 3rem black;
+}
+.imagen2{
+    transition: transform 0.5s ease-in;
+}
+.imagen2:hover
+{
+transform: scale(1.2);
+box-shadow: 0 0 3rem black;
+}
 
 div.homeinfo
 
