@@ -264,6 +264,25 @@ animation-name: left-in;
 animation-duration: 4s;
 }
 
+/* estilo footer del index*/
+
+.homefooter
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    border: dotted 0.2rem rgba(37, 10, 39, 0.644);
+   font-size: 0.7rem;
+   
+    }
+.linkhome
+{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
 
  /*Vista Mobile*/
 /*
