@@ -92,11 +92,7 @@ nav
         user-select: none;
       }
       
-     nav li
-     {
-        margin:10px;
-        border: 0.2rem solid rgba(37, 10, 39, 0.644);
-     } 
+    
     .menu button {
         margin:10px;
         border: 0.2rem solid rgba(37, 10, 39, 0.644);
