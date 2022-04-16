@@ -16,11 +16,11 @@ html{
 
   /*Color del cuerpo de la página*/
 
-body 
-{
-   background-color: #E2D6FF;
-
-}
+  body 
+  {
+     background-image: linear-gradient(to right, rgb(56, 42, 54),rgb(216, 174, 216));
+  
+  }
 
 /*Menú de navegación*/
 
