@@ -185,11 +185,14 @@ div.homeinfo
     background-size: 400px;
     }
 .redessociales h2
-    {
-    color:black;
-    font-size: 25px;
-    font-weight: bold;;
-    }
+        {
+            color:rgb(70, 17, 57);
+            font-size: 1.4rem;
+            font-weight: bold;
+            padding: 0.2rem;
+            position: relative;
+            }
+        
 .iconosredes
     {
     display: inline-flex;
