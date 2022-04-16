@@ -261,8 +261,8 @@ animation-duration: 4s;
     text-decoration: none;
     color: purple;
     font-weight: bold;
-   
 }
+
 
  /*Vista Mobile*/
 /*
@@ -336,7 +336,22 @@ animation-duration: 4s;
 text-align: center;
     }
 
-    
+    .fotobodegavieja{
+        transition: transform 0.5s ease-in;
+    }
+    .fotobodegavieja:hover
+    {
+    transform: scale(1.2);
+    box-shadow: 0 0 3rem black;
+    }
+    .fototanques{
+        transition: transform 0.5s ease-in;
+    }
+    .fototanques:hover
+    {
+    transform: scale(1.2);
+    box-shadow: 0 0 3rem black;
+    }
        
 /*ajustamos el tamaño de las imágenes*/
 
