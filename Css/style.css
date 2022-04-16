@@ -230,13 +230,7 @@ div.homeinfo
 animation-name: left-in;
 animation-duration: 4s;
 }
-    /*Footer pages*/
-.linkhome
-{
-    text-decoration: none;
-    color: purple;
-    font-weight: bold;
-}
+  
 .iconosredes :hover
     {
         background-color: rgb(216, 210, 215);
