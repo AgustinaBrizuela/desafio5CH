@@ -155,7 +155,22 @@ flex-direction: row;
 flex-wrap: wrap;
 gap: 2rem;
 }
-
+.imagen1{
+    transition: transform 0.5s ease-in;
+}
+.imagen1:hover
+{
+transform: scale(1.2);
+box-shadow: 0 0 3rem black;
+}
+.imagen2{
+    transition: transform 0.5s ease-in;
+}
+.imagen2:hover
+{
+transform: scale(1.2);
+box-shadow: 0 0 3rem black;
+}
 
 div.homeinfo
 
