@@ -167,41 +167,56 @@ div.homeinfo
     justify-content: center;
     background-image: url(..//Imágenes/Fotos/uvasredes.png);
     background-repeat: repeat;
-    background-size: 360px;
+    background-size: 400px;
     }
 .redessociales h2
     {
-    color:black;
-    font-size: 25px;
-    font-weight: bold;;
+    color:rgb(70, 17, 57);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.2rem;
+    position: relative;
     }
+
 .iconosredes
     {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    margin: 5px;
+    gap: 1.5rem;
+    padding: 1rem;
     list-style: none;
     width: 100%;
     max-width: 200px;
     margin: 0 auto;
      }
-
-/* estilo footer del index*/
-
-.homefooter
+.iconosredes :hover
     {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-style: italic;
-    background-color: #DED9E9;
-    border: solid 1px rgba(37, 10, 39, 0.644);
-    bottom: 4px; 
-    padding: 4px;  
+        background-color: rgb(216, 210, 215);
+        transform: scale(1.5);
+        transition: color, background-color, transform 1.2s ease-in;
     }
+
+/*Animación del footer*/
+
+@keyframes left-in {
+0%
+    {
+        left: -100%;
+        color: rgb(19, 19, 104);
+    }
+100% {
+        left: 0;
+        color:rgb(70, 17, 57)
+    }
+}
+
+.redessociales h2
+{
+animation-name: left-in;
+animation-duration: 4s;
+}
     /*Footer pages*/
 .linkhome
 {
@@ -209,7 +224,32 @@ div.homeinfo
     color: purple;
     font-weight: bold;
 }
+.iconosredes :hover
+    {
+        background-color: rgb(216, 210, 215);
+        transform: scale(1.5);
+        transition: color, background-color, transform 1.2s ease-in;
+    }
 
+/*Animación del footer*/
+
+@keyframes left-in {
+0%
+    {
+        left: -100%;
+        color: rgb(19, 19, 104);
+    }
+100% {
+        left: 0;
+        color:rgb(70, 17, 57)
+    }
+}
+
+.redessociales h2
+{
+animation-name: left-in;
+animation-duration: 4s;
+}
 
 
  /*Vista Mobile*/
